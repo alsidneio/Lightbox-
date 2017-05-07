@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" coent="width=device-width, initial-scale=1">
+    <title> Favorite Characters </title>
+    <link href="style.css" rel="stylesheet">
+    <link href="lightbox.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <span>- My Top 6-</span>
+        <h1> The Kill Squad</h1>
+      </header>
+      <a href="img/thumb1.jpg" data-lightbox="squad" data-title="My caption">
+      <img src="img/thumb1.jpg" alt="Thanos"></a>
+    <a href="img/thumb2.jpg" data-lightbox="squad" data-title="My caption">
+        <img src="img/thumb2.jpg" alt="World Breaker Hulk "/></a>
+    <a href="img/thumb3.jpg" data-lightbox="squad" data-title="My caption">
+        <img src="img/thumb3.jpg" alt="Shunsui"/></a>
+    <a href="img/thumb4.jpg" data-lightbox="squad" data-title="My caption">
+        <img src="img/thumb4.jpg" alt="Hiei"/></a>
+    <a href="img/thumb5.jpg" data-lightbox="squad" data-title="My caption">
+        <img src="img/thumb5.jpg" alt="Kenshin"/></a>
+    <a href="img/thumb6.jpg" data-lightbox="squad" data-title="My caption">
+        <img src="img/thumb6.jpg" alt="Sasuke"/></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="lightbox.js"></script>
+    <script>
+        lightbox.option({
+          'positionFromTop': 200,
+          'wrapAround':true
+        });
+    </script>
+
+  </body>
+
+</html>
